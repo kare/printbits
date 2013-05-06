@@ -11,7 +11,7 @@ void to_bit_string(short bits, char *result) {
 
 int main(int argc, char *argv[]) {
 	if (argc < 2) {
-		fprintf(stderr, "Usage: bits [short]\n");
+		fprintf(stderr, "Usage: printbits integer\n");
 		exit(EXIT_FAILURE);
 	}
 	char result[9];
