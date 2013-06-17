@@ -1,3 +1,4 @@
 CC=cc
+CFLAGS=-Wall -std=c99
 printbits: printbits.c
-    $CC -o printbits printbits.c
+    $CC $CFLAGS -o printbits printbits.c
