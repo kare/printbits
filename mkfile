@@ -1,8 +1,9 @@
-CC=cc
-CFLAGS=-Wall -std=c99
+<$PLAN9/src/mkhdr
 
-printbits: printbits.c
-    $CC $CFLAGS -o printbits printbits.c
+TARG=printbits
 
-clean:
-    rm -rf printbits
+OFILES=\
+	printbits.$O\
+
+BIN=$HOME/bin
+<$PLAN9/src/mkone
